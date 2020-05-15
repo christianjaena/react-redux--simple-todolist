@@ -1,0 +1,39 @@
+.todo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vh;
+   border-radius: 30px;
+   box-shadow: 10px 10px 30px rgb(21, 23, 26);
+   margin: 20px;
+}
+
+.checkbox {
+   width: 20px;
+   height: 20px;
+   background-color: white;
+   border-radius: 50%;
+   border: 1px solid #ddd;
+   outline: none;
+   cursor: pointer;
+   margin-left: 20px;
+}
+
+.delete {
+   width: 30px;
+   height: 30px;
+   background-color: rgb(204, 11, 47);
+   border-radius: 50%;
+   border: 1px solid rgb(145, 5, 31);
+   outline: none;
+   cursor: pointer;
+   margin-right: 15px;
+   text-align: center;
+   font-size: 15px;
+   font-weight: bold;
+   padding-bottom: 5px;
+}
+
+.to-do {
+   flex-grow: 1;
+}
